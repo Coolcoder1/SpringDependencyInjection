@@ -11,7 +11,7 @@ public class ClientXMLApplication {
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 		MyXMLApplication app = (MyXMLApplication) context.getBean("MyXMLApp");
 		
-		app.processMessage("Hi Fucker", "Jay");
+		app.processMessage("Hi Jay", "Jay");
 		
 		//close the context
 		context.close();
