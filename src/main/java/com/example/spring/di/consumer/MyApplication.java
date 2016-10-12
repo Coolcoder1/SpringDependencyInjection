@@ -19,7 +19,7 @@ public class MyApplication {
 		
 		
 		@Autowired
-		
+		@Qualifier("emailService")
 		public void setService(MessageService svc){
 			this.service=svc;
 		}
